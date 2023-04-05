@@ -25,8 +25,7 @@ useEffect(()=>{
    if(addedProduct){
      
     const quantity=storedCart[id];
-    addedProduct.quantity=quantity;
-    savedCart.push(addedProduct);
+    addedProduct.quantity=quantity; 
    }
    
     }
@@ -40,8 +39,7 @@ useEffect(()=>{
    setCart(newCart);
   addToDb(product.id);
 
- }
-
+ }   
 
     return (
         <div className='shopContainer'>
